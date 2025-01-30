@@ -1,0 +1,182 @@
+ .containersp{
+    padding: 12px;
+    display: flex;
+}
+
+.imagesmall{
+    height: 125px;
+    width: 125px;
+    margin-right: 50px;
+}
+
+.imagebig{
+    height: 469px;
+    width: 320px;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .inner-container{
+    height: 469px;
+    width: 800px;
+  }
+  .inner-container h1{
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: start;
+  }
+
+  .iprice{
+    margin-left: 100px;
+    text-align: start;
+    color: gray;
+    font-weight: 700;
+    font-size: 23px;
+  }
+
+  .idesc{
+    color: gray;
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: start;
+  }
+  
+  .btn-container{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .addtocart{
+    background-color: #AA7B61;
+    height: 40px;
+    width: 161px;
+    color: white;
+    border: 0;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.38px;
+    text-transform: capitalize;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+  }
+
+  .buynow{
+    background-color: #705B4F;
+    height: 40px;
+    width: 161px;
+    color: white;
+    border: 0;
+    margin-left: 20px;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.38px;
+    text-transform: capitalize;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+  }
+
+.imagecontainer{
+    display: flex;
+}
+  .firstline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#iconlike{
+    font-size: 31px;
+    color: gray;
+}
+
+.details-line{
+    margin-top: 50px;
+
+}
+
+.details-line hr{
+    margin-left: 100px;
+}
+
+.details a{
+    height: 46px;
+    width: 671px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #404040;
+}
+
+
+.tips{
+    height: 46px;
+    width: 671px;
+    margin-left: 100px;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.details-inner{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+#det, #tips{
+    color: #404040;
+}
+
+.btn-bg-triangle{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.recommand{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.based-on-choice{
+    text-align: start;
+    color: gray;
+    font-size: 17px;
+    font-weight: 353;
+}
+
+.recommand-product{
+    margin: 15px 30px 0px 30px;
+}
+
+.recommand-img{
+    width: 210px;
+  height: 238px;
+}
+
+.recommand-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recommand-product p{
+  
+    text-align: start;
+  }
+
+  .recommand-price{
+    color: gray;
+  }

@@ -1,0 +1,77 @@
+.collection {
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    left: calc(50% - 239px/2 + 0.5px);
+    top: 125px;
+    color: #000000;
+  }
+  
+  .collection-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .collection-item img {
+    /* width: auto; */
+    height: 350px;
+     width: 350px;
+    cursor: pointer;    
+    transition: box-shadow 0.3s ease;       
+    /* border: 1px solid; */
+    /* box-shadow: 5px 10px 18px  #888888; */
+
+    color: white;
+    border: none;
+    /* cursor: pointer; */
+    /* transition: box-shadow 0.3s ease; */
+  }
+
+  .collection-item img:hover{
+    transform: scale(1.1);
+  }
+  
+  .images1:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+  
+
+
+/* .secpartimages img{
+    cursor: pointer;    
+    transition: box-shadow 0.3s ease;   */
+    /* box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); */
+    /* display: flex;
+    justify-content: space-around; */
+/* } */
+
+.secpartimages{
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+
+ .secpartimages img{
+    cursor: pointer;  
+    height: 350px;
+    width: 350px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; 
+    color: white;
+    border: none;
+    gap:20px;
+  
+    /* display: flex;
+    justify-content: space-around; */
+ }
+
+ .secpartimages img:hover{
+  transform: scale(1.1);
+ }
+ .siximages:hover{
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+ }
+ .sevenimages{
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+ }

@@ -1,0 +1,143 @@
+/* Button group container */
+/* .button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+} */
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #333;
+}
+
+/* View Product Button */
+.view-product-btn {
+  background-color: #007bff; /* Blue */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.view-product-btn:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+.pprice {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.description {
+  font-size: 14px;
+  color: #777;
+  margin: 10px 0;
+}
+
+
+
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li{
+    display: inline;
+  }
+
+.main-head{
+  font-family: 'Georgia', Times, serif;
+  font-size: 40px;
+}
+
+.main-head1{
+  font-family: 'Georgia', Times, serif;
+  font-size: 20px;
+  color: gray;
+  
+}
+
+#sort{
+  color: gray;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.sort-bar1 a{
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  .Sort-List ul li{
+    margin: 35px;
+    font-size: 18px;
+    
+  }
+
+  .Sort-List ul li a{
+    text-decoration: none;
+    margin-top: 50px;
+   
+  } 
+
+  .ul-list{
+    margin-top: 50px;
+  }
+
+  hr{
+    line-height: 19px;
+  }
+
+
+
+
+.container-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-poster{
+  width: 210px;
+  height: 238px;
+}
+
+.poster{
+  margin: 15px 30px 0px 30px;
+}
+
+.poster p{
+  text-align: start;
+}
+
+.pprice{
+  color: gray;
+}
+
+  

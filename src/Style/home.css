@@ -1,0 +1,221 @@
+.hero {
+    background-image: url('../Images/backgrounf.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    /* text-align: center; */
+    /* margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 30ox; */
+      position: absolute;
+      width: 671px;
+      height: 88px;
+      left: 47px;
+      top: 214px;
+  }
+  
+  .hero-content h1 {
+    color: white;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    /* line-height: 97px; */
+    text-align: center;
+
+
+
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: white;
+    /* left: 50px; */
+    margin-left: 120px;
+    top: 214px;
+  }
+  
+  .hero-content button {
+    padding: 10px 20px;
+    background-color: #705B4F;
+    color: white;
+    margin-left: 120px;
+  }
+
+
+
+
+
+  /* HAND CRAFTED FINE PIECES. */
+
+  .handcrafted-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+    background-color: #705B4F ;/* Adjust as needed */
+    font-family: 'Cormorant Garamond';
+    /* height: 720px; */
+    
+  }
+  
+  .handcrafted-content {
+    min-width: 50%;
+   
+  }
+  
+  .handcrafted-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .handcrafted-content p {
+   
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2.60525e-08px;
+    color: #fff;
+    padding: 20px;
+}
+.handcrafted-image img{
+max-height: fit-content;
+margin-left: 20px;
+
+}
+
+
+ /* Shop now sections */
+  
+  .shop-now-button {
+    padding: 10px 20px;
+    background-color:#fff;
+    color: #705B4F;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #444; /* Add hover effect */
+  }
+  
+  .handcrafted-image img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  
+  .images{
+    transition: box-shadow 0.3s ease;
+  }
+  .images:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+  
+
+
+
+
+/* categories sections  */
+
+.categories {
+    text-align: center;
+  }
+
+  .categories h2{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .categories p{
+    font-family: 'Cormorant Garamond';
+      font-style: italic;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .category-item img {
+    height: 350px;
+     width: 350px;
+    transition: box-shadow 0.3s ease;       
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .category-item img:hover{
+  transform: scale(1.1);
+  }
+  
+  .images:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+
+/* customer reviver */
+
+
+.reviews-container {
+    padding: 40px;
+    /* text-align: center; */
+    background-color: #fff;
+  }
+  
+  .reviews-container h2 {
+    font-size: 2rem;
+    color: #5a4634; /* Brown color matching the design */
+    margin-bottom: 30px;
+  }
+  
+  .reviews-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Makes it responsive */
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+    /*   */
+   
+  }
+  
+  .review-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 50px;
+    width: 300px;
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 90px;
+    border: darkgray;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .review-card blockquote {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .review-card p {
+    margin-top: 15px;
+    font-weight: bold;
+  }

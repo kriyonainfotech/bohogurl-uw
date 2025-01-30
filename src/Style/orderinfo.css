@@ -1,0 +1,87 @@
+/* Container for the entire layout */
+.order-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left section containing forms */
+  .info-section {
+    flex-grow: 1;
+    margin-right: 40px;
+  }
+  
+  /* Form sections */
+  .info-form,
+  .shipping-form {
+    margin-bottom: 40px;
+  }
+  
+  .info-form h2,
+  .shipping-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .address-row {
+    /* display: flex; */
+    gap: 10px;  
+    justify-content: space-between;
+     /* Adds spacing between input fields */
+  }
+  
+  
+  .address-row input {
+    display: flex;
+    flex-grow: 1;
+    width: 200px; /* Sets a fixed width for each input box */
+    justify-content: space-between;
+   } 
+   
+  /* Right section for order summary */
+  .order-summary {
+    width: 300px;
+    border: 1px solid #eee;
+    padding: 20px;
+  }
+  
+  .order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
